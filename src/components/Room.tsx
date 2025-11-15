@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Send, SkipForward, LogOut, Moon, Sun } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-const URL = import.meta.env.VITE_BACKEND_URL;
+const URL = "https://omegle-webrtc-backend-1.onrender.com/";
 
 export const Room = ({
   name,
